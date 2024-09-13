@@ -5,43 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoice Generator V1.0</title>
     <link rel="icon" href="https://i.pinimg.com/originals/f1/53/d9/f153d92ecd6253c40b4cfe708bdbb230.png" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Basic reset */
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
         header {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 1rem;
+            background-color: #2d2d2d;
+            padding: 1.5rem 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
+
+        header h1 {
+            font-weight: 600;
+            font-size: 2rem;
+            color: #4db5ff;
+        }
+
         main {
             padding: 2rem;
-            max-width: 800px;
-            margin: auto;
+            max-width: 900px;
+            margin: 2rem auto;
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         }
-        h1 {
-            color: #4CAF50;
+
+        h2, h3 {
+            color: #4db5ff;
+            margin-bottom: 1rem;
         }
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+        }
+
         a {
-            color: #4CAF50;
+            color: #76c7c0;
             text-decoration: none;
+            font-weight: 500;
         }
+
         a:hover {
+            color: #4db5ff;
             text-decoration: underline;
         }
+
         footer {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 1rem;
+            background-color: #2d2d2d;
+            padding: 1rem 0;
             text-align: center;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+
+        footer p {
+            font-size: 1rem;
+            color: #aaa;
+        }
+
+        footer a {
+            color: #76c7c0;
         }
     </style>
 </head>
@@ -49,9 +108,11 @@
     <header>
         <h1>Invoice Generator V1.0</h1>
     </header>
+    
     <main>
         <h2>Welcome to Invoice Generator V1.0</h2>
         <p>Invoice Generator V1.0 is a tool designed to simplify the process of generating invoices. Whether you need to create and manage invoices for your business or personal use, our tool aims to make the task easier and more efficient.</p>
+        
         <h3>Useful Links</h3>
         <ul>
             <li><a href="https://docs.google.com/spreadsheets/d/1cAq5PVlmkQHjLYSU4Yaf2DcCynBobRkfjAALYtT9E3o/edit?usp=sharing" target="_blank">Invoice Generator Sheet</a></li>
@@ -59,6 +120,7 @@
             <li><a href="https://docs.google.com/document/d/1DmWCb5oRm_5gPJTpjZrS0oBpKBk-Wd69MmHDAqSRCgg/edit?usp=sharing" target="_blank">Terms of Service</a></li>
         </ul>
     </main>
+    
     <footer>
         <p>&copy; 2024 Invoice Generator V1.0 | Contact: <a href="mailto:Syamo.imoo31@gmail.com">Syamo.imoo31@gmail.com</a></p>
     </footer>
